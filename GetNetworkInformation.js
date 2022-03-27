@@ -112,16 +112,21 @@ function getNetworkSpeed() {
     return speed;
 }
 
-getPublicIP();
-getIP();
-getNetworkSpeed();
-getMemory();
-getMac();
-getHostname();
-getUser();
-getComputerName();
-getOS();
-getOSVersion();
-getCPU();
-getCPUCores();
-getCPUFrequency();
+function callAllFunctions() {
+    getPublicIP();
+    getIP();
+    getNetworkSpeed();
+    getMemory();
+    getMac();
+    getHostname();
+    getUser();
+    getComputerName();
+    getOS();
+    getOSVersion();
+    getCPU();
+    getCPUCores();
+    getCPUFrequency();
+
+}
+
+callAllFunctions();
